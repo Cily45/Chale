@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Projet de tricots</string>
+    <string name="minus">-</string>
+    <string name="plus">+</string>
+    <string name="_0">0</string>
+    <string name="lien">www.garnstudio.com/pattern.php?id=6204&amp;cid=8#need-help</string>
+    <string name="rang_9">A l\'endroit, * 2 mailles ens à l\'end, 1 double jeté *, répéter de *-*.</string>
+    <string name="rang_10">A l\'endroit, tricoter le 1er des 2 jetés, lâcher le 2ème. Répéter ces 10 rangs.</string>
+    <string name="augmentation">Tricoter 2 fois la 1ère maille sur l\'endroit</string>
+    <string name="diminution"> Tricoter les 2 premières mailles ens à l\'endroit</string>
+    <string name="rang_1_8">Tricoter toutes les mailles à l\'endroit.</string>
+
+
+</resources>

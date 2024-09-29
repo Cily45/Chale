@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/compteurG"
+        android:layout_width="210dp"
+        android:layout_height="20dp"
+        android:layout_below="@+id/title"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="40dp"
+        android:gravity="left"
+        android:text="Numeros du rang: 123" />
+
+    <Button
+        android:id="@+id/buttonPlus"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/compteurF"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="50dp"
+        android:text="@string/plus" />
+
+    <Button
+        android:id="@+id/buttonMinus"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/compteurF"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="25dp"
+        android:text="@string/minus" />
+
+    <TextView
+        android:id="@+id/compteurAD"
+        android:layout_width="288dp"
+        android:layout_height="20dp"
+
+        android:layout_below="@+id/maille"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="10dp"
+        android:gravity="left"
+        android:text="Compteur des augmentations: 1" />
+
+    <TextView
+        android:id="@+id/compteurF"
+        android:layout_width="252dp"
+        android:layout_height="20dp"
+        android:layout_below="@+id/compteurAD"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="10dp"
+        android:gravity="left"
+        android:text="Compteur point fantaisie: 12" />
+
+    <TextView
+        android:id="@+id/maille"
+        android:layout_width="200dp"
+        android:layout_height="20dp"
+        android:layout_below="@+id/compteurG"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="10dp"
+        android:gravity="left"
+        android:text="Nombres de mailles: 123" />
+
+    <TextView
+        android:id="@+id/instruction"
+        android:layout_width="wrap_content"
+        android:layout_height="280dp"
+
+        android:layout_above="@+id/lienPatron"
+        android:layout_below="@+id/buttonPlus"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="230dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"
+        android:text="@string/rang_1_8"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/lienPatron"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="20dp"
+        android:textSize="10dp"
+        android:text="@string/lien"
+        android:autoLink="web"/>
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="100dp"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:text="Châle Iceland" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="250dp"
+        android:layout_height="282dp"
+
+        android:layout_above="@+id/lienPatron"
+        android:layout_below="@+id/buttonMinus"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="220dp"
+        android:layout_marginBottom="20dp"
+        app:srcCompat="@drawable/photo_chale" />
+
+</RelativeLayout>
